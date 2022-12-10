@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Kanit:wght@300&family=Pacifico&family=Readex+Pro&family=Ubuntu&display=swap');
 
+.recipe-card {
+    width: 18rem;
+}
+
 .img-carousel {
     height: 400px;
     object-fit: cover;
@@ -13,4 +17,24 @@
 
 .text-darkred {
     color: darkred;
+}
+
+.btn-darkred {
+    background-color: darkred;
+    color: white;
+}
+
+.btn-darkred:hover {
+    border: 1px solid darkred;
+    color: darkred;
+}
+
+.border-darkred {
+    border-color: darkred;
+}
+
+.card-position-image {
+    height: 200px;
+    object-fit: cover;
+    /* object-position: 0 80%; */
 }
